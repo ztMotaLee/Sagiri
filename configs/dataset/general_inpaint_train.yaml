@@ -1,0 +1,17 @@
+dataset:
+  target: dataset.inpainting.DarkEnhanceDataset
+  params:
+    # Path to the file list.
+    captions_file: path/to/your/file
+    out_size: 512
+    crop_type: center
+    use_hflip: False
+    
+data_loader:
+  batch_size: 16
+  shuffle: true
+  num_workers: 16
+  drop_last: true
+
+batch_transform:
+  target: dataset.batch_transform.IdentityBatchTransform
