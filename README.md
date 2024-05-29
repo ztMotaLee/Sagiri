@@ -41,15 +41,15 @@
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_input.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+<!--         <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Previous methods</figcaption>
+<!--         <figcaption class="caption">Previous methods</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">LS-Sagiri</figcaption>
+<!--         <figcaption class="caption">LS-Sagiri</figcaption> -->
     </figure>
 </div>
 
