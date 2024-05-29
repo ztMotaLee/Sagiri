@@ -41,15 +41,15 @@
 ## <a name="visual_results"></a>Visual results on entire real-world image
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_input.jpg" style="max-width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_input.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_singlehdr.jpg" style="max-width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_singlehdr.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Previous methods</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_lssagiri.png" style="max-width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_lssagiri.png" style="width: 100%; height: auto;"/>
         <figcaption class="caption">LS-Sagiri</figcaption>
     </figure>
 </div>
@@ -57,15 +57,15 @@
 ## <a name="visual_results"></a>Visual results on selected region 
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_draw.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00679_draw.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_stage1.png" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00679_stage1.png" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Previous methods</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_0_combinedloss.png" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00679_0_combinedloss.png" style="width: 100%; height: auto;"/>
         <figcaption class="caption">LS-Sagiri</figcaption>
     </figure>
 </div>
@@ -73,61 +73,61 @@
 ## <a name="visual_results"></a>Sagiri plugged after other methods 
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_lq.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01548_lq.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_single.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01548_single.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">SingleHDR</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_single_sagiri.png" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01548_single_sagiri.png" style="width: 100%; height: auto;"/>
         <figcaption class="caption">SingleHDR+Sagiri</figcaption>
     </figure>
 </div>
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lq.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01624_lq.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lcdp.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01624_lcdp.jpg" style="width: 100%; height: auto;"/>
         <figcaption class="caption">SingleHDR</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lcdp_sagiri.png" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/01624_lcdp_sagiri.png" style="width: 100%; height: auto;"/>
         <figcaption class="caption">SingleHDR+Sagiri</figcaption>
     </figure>
 </div>
 
 ## <a name="visual_results"></a>Controlling where and what to generate
 <div style="display: flex; justify-content: space-around; margin-top: 5px; margin-bottom: 5px;">    <figure style="text-align: center;">
-        <img src="assets/imgs/00017_input.jpg" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00017_input.jpg" style="width: 150%; height: auto;"/>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00017_singlehdr.jpg" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00017_singlehdr.jpg" style="width: 150%; height: auto;"/>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00017_singlesagiri_nomask_clouds.png" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00017_singlesagiri_nomask_clouds.png" style="width: 150%; height: auto;"/>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00017_singlesagiri_nomask_sun.png" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00017_singlesagiri_nomask_sun.png" style="width: 150%; height: auto;"/>
     </figure>
 </div>
 <div style="display: flex; justify-content: space-around; margin-top: 5px; margin-bottom: 5px;">    <figure style="text-align: center;">
-        <img src="assets/imgs/00016_input.jpg" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00016_input.jpg" style="width: 150%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00016_single.jpg" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00016_single.jpg" style="width: 150%; height: auto;"/>
         <figcaption class="caption">SingleHDR</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00016_singlesagiri_mask_cloud.png" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00016_singlesagiri_mask_cloud.png" style="width: 150%; height: auto;"/>
         <figcaption class="caption">+Sagiri(prompt a)</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00016_singlesagiri_mask_sun.png" style="max-width: 150%; height: auto;"/>
+        <img src="assets/imgs/00016_singlesagiri_mask_sun.png" style="width: 150%; height: auto;"/>
         <figcaption class="caption">+Sagiri(prompt b)</figcaption>
     </figure>
 </div>
