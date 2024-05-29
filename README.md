@@ -8,7 +8,7 @@
     font-family: 'Arial', sans-serif; 
     font-size: 16px; 
     text-align: center; 
-    margin-left: 38px; 
+    margin-left: 5px; 
   }
 </style>
 [Paper]() | [Project Page]()
@@ -41,15 +41,15 @@
 ## <a name="visual_results"></a>Visual results on entire real-world image
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_input.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_input.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_singlehdr.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Previous methods</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_lssagiri.png" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
         <figcaption class="caption">LS-Sagiri</figcaption>
     </figure>
 </div>
@@ -57,15 +57,15 @@
 ## <a name="visual_results"></a>Visual results on selected region 
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_draw.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00679_draw.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_stage1.png" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00679_stage1.png" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Previous methods</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00679_0_combinedloss.png" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/00679_0_combinedloss.png" style="width: 30%; height: auto;"/>
         <figcaption class="caption">LS-Sagiri</figcaption>
     </figure>
 </div>
@@ -73,29 +73,29 @@
 ## <a name="visual_results"></a>Sagiri plugged after other methods 
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_lq.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01548_lq.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_single.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01548_single.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">SingleHDR</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01548_single_sagiri.png" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01548_single_sagiri.png" style="width: 30%; height: auto;"/>
         <figcaption class="caption">SingleHDR+Sagiri</figcaption>
     </figure>
 </div>
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lq.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01624_lq.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lcdp.jpg" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01624_lcdp.jpg" style="width: 30%; height: auto;"/>
         <figcaption class="caption">SingleHDR</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/01624_lcdp_sagiri.png" style="width: 33%; height: auto;"/>
+        <img src="assets/imgs/01624_lcdp_sagiri.png" style="width: 30%; height: auto;"/>
         <figcaption class="caption">SingleHDR+Sagiri</figcaption>
     </figure>
 </div>
