@@ -37,11 +37,16 @@
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
+        <!-- <div style="text-align: center;">Medium: After previous methods</div> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
+        <!-- <div style="text-align: center;">Right: LS-Sagiri(Ours)</div> -->
     </figure>
 </div>
+Left: Input image; 
+Medium: After previous methods; 
+Right: LS-Sagiri(Ours)
 
 ## <a name="visual_results"></a>Visual results on selected region 
 <div style="display: flex; justify-content: space-around;">
@@ -58,6 +63,9 @@
         <!-- <figcaption class="caption">LS-Sagiri</figcaption> -->
     </figure>
 </div>
+Left: Input image; 
+Medium: Previous methods; 
+Right: LS-Sagiri(Ours)
 
 ## <a name="visual_results"></a>Sagiri plugged after other methods 
 <div style="display: flex; justify-content: space-around;">
@@ -74,6 +82,10 @@
         <!-- <figcaption class="caption">SingleHDR+Sagiri</figcaption> -->
     </figure>
 </div>
+Left: Input image; 
+Medium: SingleHDR; 
+Right: SingleHDR+Sagiri(Ours)
+
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/01624_lq.jpg" style="width: 30%; height: auto;"/>
@@ -88,6 +100,9 @@
         <!-- <figcaption class="caption">SingleHDR+Sagiri</figcaption> -->
     </figure>
 </div>
+Left: Input image; 
+Medium: LCDPNet; 
+Right: LCDPNet+Sagiri(Ours)
 
 ## <a name="visual_results"></a>Controlling where and what to generate
 <div style="display: flex; justify-content: space-around; margin-top: 5px; margin-bottom: 5px;">    <figure style="text-align: center;">
@@ -120,7 +135,11 @@
         <!-- <figcaption class="caption">+Sagiri(prompt b)</figcaption> -->
     </figure>
 </div>
-Prompt a: ``A white waterfall is flowing down from the cliff, surrounded by rocks and trees.''<br>
+First: Input image;
+Second: SingleHDR;
+Third: SingleHDR+Sagiri (with prompt a);
+Fourth: SingleHDR+Sagiri (with prompt b);<br>
+Prompt a: ``A white waterfall is flowing down from the cliff, surrounded by rocks and trees.'';<br>
 Prompt b: ``The sun is setting, and the sky is filled with clouds.''
 
 ## <a name="update"></a>Update
