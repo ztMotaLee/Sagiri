@@ -5,7 +5,7 @@
 ## Low Dynamic Range Image Enhancement with Generative Diffusion Prior
 <style>
 .caption {
-    margin-top: 10px; 
+    margin-top: 10px;
     text-align: center;
 }
 </style>
@@ -40,15 +40,15 @@
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_input.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+        <!-- <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Previous methods</figcaption>
+        <!-- <figcaption class="caption">Previous methods</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">LS-Sagiri</figcaption>
+        <!-- <figcaption class="caption">LS-Sagiri</figcaption> -->
     </figure>
 </div>
 
@@ -56,15 +56,15 @@
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/00679_draw.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+        <!-- <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00679_stage1.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Previous methods</figcaption>
+        <!-- <figcaption class="caption">Previous methods</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00679_0_combinedloss.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">LS-Sagiri</figcaption>
+        <!-- <figcaption class="caption">LS-Sagiri</figcaption> -->
     </figure>
 </div>
 
@@ -72,29 +72,29 @@
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/01548_lq.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+        <!-- <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/01548_single.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">SingleHDR</figcaption>
+        <!-- <figcaption class="caption">SingleHDR</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/01548_single_sagiri.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">SingleHDR+Sagiri</figcaption>
+        <!-- <figcaption class="caption">SingleHDR+Sagiri</figcaption> -->
     </figure>
 </div>
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
         <img src="assets/imgs/01624_lq.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+        <!-- <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/01624_lcdp.jpg" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">SingleHDR</figcaption>
+        <!-- <figcaption class="caption">SingleHDR</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/01624_lcdp_sagiri.png" style="width: 30%; height: auto;"/>
-        <figcaption class="caption">SingleHDR+Sagiri</figcaption>
+        <!-- <figcaption class="caption">SingleHDR+Sagiri</figcaption> -->
     </figure>
 </div>
 
@@ -114,19 +114,19 @@
 </div>
 <div style="display: flex; justify-content: space-around; margin-top: 5px; margin-bottom: 5px;">    <figure style="text-align: center;">
         <img src="assets/imgs/00016_input.jpg" style="width: 23%; height: auto;"/>
-        <figcaption class="caption">Input</figcaption>
+        <!-- <figcaption class="caption">Input</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00016_single.jpg" style="width: 23%; height: auto;"/>
-        <figcaption class="caption">SingleHDR</figcaption>
+        <!-- <figcaption class="caption">SingleHDR</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00016_singlesagiri_mask_cloud.png" style="width: 23%; height: auto;"/>
-        <figcaption class="caption">+Sagiri(prompt a)</figcaption>
+        <!-- <figcaption class="caption">+Sagiri(prompt a)</figcaption> -->
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00016_singlesagiri_mask_sun.png" style="width: 23%; height: auto;"/>
-        <figcaption class="caption">+Sagiri(prompt b)</figcaption>
+        <!-- <figcaption class="caption">+Sagiri(prompt b)</figcaption> -->
     </figure>
 </div>
 Prompt a: ``A white waterfall is flowing down from the cliff, surrounded by rocks and trees.''<br>
