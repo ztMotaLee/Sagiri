@@ -34,15 +34,12 @@
 <div style="display: flex; justify-content: space-around; align-items: flex-end;">
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_input.jpg" style="width: 30%; height: auto;"/>
-        <div style="text-align: center;">Left: Input Image</div>
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
-        <div style="text-align: center;">Medium: After previous methods</div>
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
-        <div style="text-align: center;">Right: LS-Sagiri(Ours)</div>
     </figure>
 </div>
 
