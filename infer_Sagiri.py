@@ -212,7 +212,8 @@ def main() -> None:
     model.to(args.device)
     
     assert os.path.isdir(args.input)
-    prompt_dict = load_prompts('path/to/your/prompt/file')
+    ###Add prompt file if you want to run a batch of images with given prompt.
+    # prompt_dict = load_prompts('path/to/your/prompt/file')
     for file_path in list_image_files(args.input, follow_links=True):
         print(file_path)
         
