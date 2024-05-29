@@ -3,13 +3,6 @@
 </p> -->
 
 ## Low Dynamic Range Image Enhancement with Generative Diffusion Prior
-<style>
-    .caption {
-        text-align: center;
-        display: block;
-        margin-top: 10px; 
-    }
-</style>
 [Paper]() | [Project Page]()
 
 <!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=XPixelGroup/DiffBIR) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/linxinqi/DiffBIR-official) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DiffBIR-colab/blob/main/DiffBIR_colab.ipynb) -->
@@ -38,18 +31,18 @@
 - [Train](#train)
 
 ## <a name="visual_results"></a>Visual results on entire real-world image
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: space-around; align-items: flex-end;">
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_input.jpg" style="width: 30%; height: auto;"/>
-<!--         <figcaption class="caption">Input</figcaption> -->
+        <span style="display: block; text-align: center;">Left: Input Image</span>
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_singlehdr.jpg" style="width: 30%; height: auto;"/>
-<!--         <figcaption class="caption">Previous methods</figcaption> -->
+        <span style="display: block; text-align: center;">Medium: After previous methods</span>
     </figure>
     <figure style="text-align: center;">
         <img src="assets/imgs/00288_lssagiri.png" style="width: 30%; height: auto;"/>
-<!--         <figcaption class="caption">LS-Sagiri</figcaption> -->
+        <span style="display: block; text-align: center;">Right: LS-Sagiri(Ours)</span>
     </figure>
 </div>
 
