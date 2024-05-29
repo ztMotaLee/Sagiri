@@ -41,15 +41,15 @@
 ## <a name="visual_results"></a>Visual results on entire real-world image
 <div style="display: flex; justify-content: space-around;">
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_input.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00288_input.jpg" style="max-width: 33%; height: auto;"/>
         <figcaption class="caption">Input</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_singlehdr.jpg" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00288_singlehdr.jpg" style="max-width: 33%; height: auto;"/>
         <figcaption class="caption">Previous methods</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src="assets/imgs/00288_lssagiri.png" style="max-width: 130%; height: auto;"/>
+        <img src="assets/imgs/00288_lssagiri.png" style="max-width: 33%; height: auto;"/>
         <figcaption class="caption">LS-Sagiri</figcaption>
     </figure>
 </div>
