@@ -2,7 +2,7 @@
     <img src="assets/logo.png" width="400">
 </p> -->
 
-## Low Dynamic Range Image Enhancement with Generative Diffusion Prior
+## Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior
 [Paper]() | [Project Page](https://sagiri0208.github.io)
 
 <!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=XPixelGroup/DiffBIR) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/linxinqi/DiffBIR-official) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DiffBIR-colab/blob/main/DiffBIR_colab.ipynb) -->
@@ -163,7 +163,7 @@ pip install -r requirements.txt
 ## <a name="pretrained_models"></a>Pretrained Models
 
 Color and brightness adjustment [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri ).<br>
-Sagiri for conditional image generation[download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri).
+Sagiri for conditional image generation [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri).
 ## <a name="inference"></a>Inference&Train
 
 ### <a name="inference"></a>Stage 1 inference
@@ -212,7 +212,7 @@ Please cite us if our work is useful for your research.
 ```
 @article{Li2024ldr,
   author    = {Baiang Li, Sizhuo Ma, Yanhong Zeng, Xiaogang Xu, Youqing Fang, Zhao Zhang, Jian Wang, Kai Chen},
-  title     = {Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
+  title     = {Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
   journal   = {arxiv},
   year      = {2024},
 }
