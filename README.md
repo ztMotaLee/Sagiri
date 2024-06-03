@@ -2,14 +2,17 @@
     <img src="assets/logo.png" width="400">
 </p> -->
 
-## Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior
-[Paper]() | [Project Page](https://sagiri0208.github.io)
+## Low Dynamic Range Image Enhancement with Generative Diffusion Prior
+[Paper]() | [Project Page]()
 
 <!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=XPixelGroup/DiffBIR) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/linxinqi/DiffBIR-official) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DiffBIR-colab/blob/main/DiffBIR_colab.ipynb) -->
 
-[Baiang Li](ztmotalee.github.io)<sup>1, 5</sup>, [Sizhuo Ma](https://sizhuoma.netlify.app/)<sup>2</sup>, [Yanhong Zeng](https://zengyh1900.github.io/)<sup>1</sup>, [Xiaogang Xu](https://xuxiaogang.com/)<sup>3, 4</sup>, [Youqing Fang]()<sup>1</sup>, [Zhao Zhang](https://sites.google.com/site/cszzhang)<sup>5</sup>, [Jian Wang](https://jianwang-cmu.github.io/)<sup>2\*</sup>, [Kai Chen](https://chenkai.site/)<sup>2\*</sup>
+[Baiang Li](ztmotalee.github.io)<sup>1, 5</sup>, [Sizhuo Ma](https://sizhuoma.netlify.app/)<sup>2</sup>, [Yanhong Zeng](https://zengyh1900.github.io/)<sup>1</sup>, [Xiaogang Xu](https://xuxiaogang.com/)<sup>3, 4</sup>, [Youqing Fang]()<sup>1</sup>, [Zhao Zhang](https://sites.google.com/site/cszzhang)<sup>5</sup>, [Jian Wang](https://jianwang-cmu.github.io/)<sup>2✝</sup>, [Kai Chen](https://chenkai.site/)<sup>1✝</sup>
+    <br>
+    <a style="font-size: 0.7em"><sup>✝</sup>Corresponding Authors.</a>
+    <br>
+<sup>1</sup>Shanghai AI Laboratory<br><sup>2</sup>Snap Inc. <br><sup>3</sup>The Chinese University of Hong Kong <br><sup>4</sup>Zhejiang University <br><sup>5</sup>Hefei University of Technology
 
-<sup>1</sup>Shanghai AI Laboratory<br><sup>2</sup>Snap Inc <br><sup>3</sup>The Chinese University of Hong Kong <br><sup>4</sup>Zhejiang University <br><sup>5</sup>Hefei University of Technology
 
 <div align="center">
     <kbd><img src="assets/figure/sagiri.png"></img></kbd>
@@ -27,7 +30,8 @@
 - [Update](#update)
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
-- [Inference&Train](#inference)
+- [Inference](#inference)
+- [Train](#train)
 
 ## <a name="visual_results"></a>Visual results on entire real-world image
 <div style="display: flex; justify-content: space-around; align-items: flex-end;">
@@ -151,7 +155,7 @@ Prompt b: ``The sun is setting, and the sky is filled with clouds.''
 
 ```shell
 # clone this repo
-git clone https://github.com/ztMotaLee/Sagiri.git
+git clone https://github.com/openmmlab/Sagiri.git
 cd Sagiri
 
 # create an environment with python >= 3.9
@@ -162,9 +166,11 @@ pip install -r requirements.txt
 
 ## <a name="pretrained_models"></a>Pretrained Models
 
-Color and brightness adjustment [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri ).<br>
-Sagiri for conditional image generation [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri).
-## <a name="inference"></a>Inference&Train
+| Model Name | Description | HuggingFace | BaiduNetdisk | OpenXLab |
+| :--------- | :---------- | :---------- | :---------- | :---------- |
+| stage1.ckpt | Stage1 for brightness and color adjustment. | [download]() | [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri )| [download]() |
+| stage2.ckpt | Sagiri for conditional image generation. |[download]() | [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri) | [download]() |
+## <a name="inference"></a>Inference
 
 ### <a name="inference"></a>Stage 1 inference
 Note that we can use other restoration models to finish stage 1's process.
@@ -198,7 +204,7 @@ python infer_LSSagiri.py \
 --device cuda
 ```
 
-### <a name="inference"></a>Start training
+### <a name="train"></a>Start training
     ```shell
     python train.py --config [training_config_path]
     ```
@@ -212,7 +218,7 @@ Please cite us if our work is useful for your research.
 ```
 @article{Li2024ldr,
   author    = {Baiang Li, Sizhuo Ma, Yanhong Zeng, Xiaogang Xu, Youqing Fang, Zhao Zhang, Jian Wang, Kai Chen},
-  title     = {Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
+  title     = {Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
   journal   = {arxiv},
   year      = {2024},
 }
@@ -224,7 +230,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-This project is based on [ControlNet](https://github.com/lllyasviel/ControlNet), [BasicSR](https://github.com/XPixelGroup/BasicSR) and [DiffBIR](https://github.com/XPixelGroup/DiffBIR). Thanks for their awesome works.
+This project is based on [ControlNet](https://github.com/lllyasviel/ControlNet), [BasicSR](https://github.com/XPixelGroup/BasicSR) and [DiffBIR](https://github.com/XPixelGroup/DiffBIR). Thanks for their awesome work.
 
 ## Contact
 

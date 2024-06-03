@@ -46,7 +46,7 @@ def process(
     positive_prompt: str,
 ) -> Tuple[List[np.ndarray], List[np.ndarray]]:
     """
-    Apply DiffBIR model on a list of low-quality images.
+    Apply Sagiri model on a list of low-quality images. (Code is partly borrowed from DiffBIR)
     
     Args:
         model (ControlLDM): Model.
@@ -75,8 +75,8 @@ def process(
     ###For entire image.
     mask = np.ones_like(control.cpu())
 
-    ###For default mask (over/under exposed region)
 
+    ###For default mask (over/under exposed region)
     # mask = np.zeros_like(control.cpu())
     # mask[(control.cpu() == 0) | (control.cpu() == 1)] = 1
 
@@ -131,8 +131,6 @@ def process(
 
 def parse_args() -> Namespace:
     parser = ArgumentParser()
-    
-    # TODO: add help info for these options
     parser.add_argument("--ckpt", required=True, type=str, help="full checkpoint path")
     parser.add_argument("--config", required=True, type=str, help="model config path")
     parser.add_argument("--reload_swinir", action="store_true")
