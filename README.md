@@ -27,8 +27,7 @@
 - [Update](#update)
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
-- [Inference](#inference)
-- [Train](#train)
+- [Inference&Train](#inference)
 
 ## <a name="visual_results"></a>Visual results on entire real-world image
 <div style="display: flex; justify-content: space-around; align-items: flex-end;">
@@ -167,7 +166,7 @@ pip install -r requirements.txt
 | :--------- | :---------- | :---------- | :---------- | :---------- |
 | stage1.ckpt | Stage1 for brightness and color adjustment. | [download]() | [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri )| [download]() |
 | stage2.ckpt | Sagiri for conditional image generation. |[download]() | [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri) | [download]() |
-## <a name="inference"></a>Inference
+## <a name="inference"></a>Inference&Train
 
 ### <a name="inference"></a>Stage 1 inference
 Note that we can use other restoration models to finish stage 1's process.
@@ -201,7 +200,7 @@ python infer_LSSagiri.py \
 --device cuda
 ```
 
-### <a name="train"></a>Start training
+### <a name="inference"></a>Start training
     ```shell
     python train.py --config [training_config_path]
     ```
