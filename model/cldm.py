@@ -21,9 +21,6 @@ from ldm.util import log_txt_as_img, exists, instantiate_from_config
 from ldm.modules.distributions.distributions import DiagonalGaussianDistribution
 from utils.common import frozen_module
 from .spaced_sampler import SpacedSampler
-import sys
-sys.path.append("/mnt/petrelfs/liboang/models/hdr_eccv24")
-sys.path.append("/mnt/petrelfs/liboang/models/hdr_eccv24/DiffBIR-main")
 def denormalize(tensor):
     return tensor * 255.0
 

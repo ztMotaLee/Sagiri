@@ -2,7 +2,6 @@ dataset:
   target: dataset.inpaintingv2.DarkEnhanceDataset
   params:
     # Path to the file list.
-    # file_list: /mnt/petrelfs/liboang/models/hdr_eccv24/DiffBIR-main/filelists/train.list
     captions_file: path/to/your/file
     out_size: 512
     crop_type: center

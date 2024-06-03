@@ -566,8 +566,7 @@ class LatentDiffusion(DDPM):
         if cond_stage_config == '__is_unconditional__' and not self.force_null_conditioning:
             conditioning_key = None
         
-        # ckpt_path = kwargs.pop("ckpt_path", None)
-        ckpt_path="/mnt/petrelfs/liboang/models/hdr_eccv24/DiffBIR-main/experiment/lightning_logs/inpaintingv2_final/checkpoints/step=50000.ckpt"
+        ckpt_path = kwargs.pop("ckpt_path", None)
         reset_ema = kwargs.pop("reset_ema", False)
         reset_num_ema_updates = kwargs.pop("reset_num_ema_updates", False)
         ignore_keys = kwargs.pop("ignore_keys", [])
