@@ -151,7 +151,7 @@ Prompt b: ``The sun is setting, and the sky is filled with clouds.''
 
 ```shell
 # clone this repo
-git clone https://github.com/openmmlab/Sagiri.git
+git clone https://github.com/ztMotaLee/Sagiri.git
 cd Sagiri
 
 # create an environment with python >= 3.9
@@ -162,8 +162,8 @@ pip install -r requirements.txt
 
 ## <a name="pretrained_models"></a>Pretrained Models
 
-Color and brightness adjustment [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri )
-Sagiri for conditional image generation[download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri)
+Color and brightness adjustment [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri ).<br>
+Sagiri for conditional image generation[download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri).
 ## <a name="inference"></a>Inference&Train
 
 ### <a name="inference"></a>Stage 1 inference
