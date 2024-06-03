@@ -3,7 +3,7 @@
 </p> -->
 
 ## Low Dynamic Range Image Enhancement with Generative Diffusion Prior
-[Paper]() | [Project Page](sagiri0208.github.io)
+[Paper]() | [Project Page](https://sagiri0208.github.io)
 
 <!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=XPixelGroup/DiffBIR) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/linxinqi/DiffBIR-official) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DiffBIR-colab/blob/main/DiffBIR_colab.ipynb) -->
 
