@@ -1,8 +1,6 @@
 import sys
 import os
 from argparse import ArgumentParser
-import sys
-sys.path.append("/mnt/petrelfs/liboang/models/hdr_eccv24/DiffBIR-main")
 from utils.file import list_image_files
 
 parser = ArgumentParser()
