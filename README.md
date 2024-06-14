@@ -164,10 +164,10 @@ pip install -r requirements.txt
 
 ## <a name="pretrained_models"></a>Pretrained Models
 
-| Model Name | Description | HuggingFace | BaiduNetdisk | OpenXLab |
-| :--------- | :---------- | :---------- | :---------- | :---------- |
-| stage1.ckpt | Stage1 for brightness and color adjustment. | [download]() | [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri )| [download]() |
-| stage2.ckpt | Sagiri for conditional image generation. |[download]() | [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri) | [download]() |
+| Model Name | Description | BaiduNetdisk |
+| :--------- | :---------- | :---------- | 
+| stage1.ckpt | Stage1 for brightness and color adjustment. | [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri)| 
+| stage2.ckpt | Sagiri for conditional image generation. | [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri) | 
 ## <a name="inference"></a>Inference
 
 ### <a name="inference"></a>Stage 1 inference
