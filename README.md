@@ -214,9 +214,9 @@ For more training details, please refer to [DiffBIR](https://github.com/XPixelGr
 Please cite us if our work is useful for your research.
 
 ```
-@article{Li2024ldr,
-  author    = {Baiang Li, Sizhuo Ma, Yanhong Zeng, Xiaogang Xu, Youqing Fang, Zhao Zhang, Jian Wang, Kai Chen},
-  title     = {Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
+@article{li2024sagiri,
+  author    = {Baiang Li and Sizhuo Ma and Yanhong Zeng and Xiaogang Xu and Youqing Fang and Zhao Zhang and Jian Wang and Kai Chen},
+  title     = {Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior},
   journal   = {arxiv},
   year      = {2024},
 }
