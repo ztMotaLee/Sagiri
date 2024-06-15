@@ -207,8 +207,6 @@ python infer_LSSagiri.py \
     python train.py --config [training_config_path]
     ```
 
-For more training details, please refer to [DiffBIR](https://github.com/XPixelGroup/DiffBIR).
-
 ## Citation
 
 Please cite us if our work is useful for your research.
