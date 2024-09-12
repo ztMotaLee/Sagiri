@@ -153,7 +153,7 @@ Prompt b: ``The sun is setting, and the sky is filled with clouds.''
 
 ```shell
 # clone this repo
-git clone https://github.com/openmmlab/Sagiri.git
+git clone https://github.com/ztMotaLee/Sagiri.git
 cd Sagiri
 
 # create an environment with python >= 3.9
