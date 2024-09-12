@@ -203,6 +203,12 @@ python infer_LSSagiri.py \
 ```
 
 ### <a name="train"></a>Start training
+
+    ```shell
+wget https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.ckpt --no-check-certificate
+    ```
+
+
     ```shell
     python train.py --config [training_config_path]
     ```
