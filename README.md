@@ -144,6 +144,7 @@ Prompt a: ``A white waterfall is flowing down from the cliff, surrounded by rock
 Prompt b: ``The sun is setting, and the sky is filled with clouds.''
 
 ## <a name="update"></a>Update
+- **2024.12**: A new version is under reconstruction! We will release the improved mask strategy, and support more customized generation options for selected regions.
 
 - **2024.06**: This repo is released.
 <!-- - [**History Updates** >]() -->
