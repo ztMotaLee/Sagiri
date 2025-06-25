@@ -3,7 +3,7 @@
 </p> -->
 
 ## Sagiri v2 is under construction!
-## Sagiri: Low Dynamic Range Image Enhancement with Generative Diffusion Prior
+## Sagiri: Exposure-Limited Image Enhancement with Generative Diffusion Prior
 [Paper](https://arxiv.org/pdf/2406.09389) | [Project Page](https://sagiri0208.github.io/)
 
 [Baiang Li](ztmotalee.github.io)<sup>1, 5</sup>, [Sizhuo Ma](https://sizhuoma.netlify.app/)<sup>3</sup>, [Yanhong Zeng](https://zengyh1900.github.io/)<sup>1</sup>, [Xiaogang Xu](https://xuxiaogang.com/)<sup>2, 4</sup>, [Youqing Fang]()<sup>1</sup>, [Zhao Zhang](https://sites.google.com/site/cszzhang)<sup>5</sup>, [Jian Wang](https://jianwang-cmu.github.io/)<sup>3✝</sup>, [Kai Chen](https://chenkai.site/)<sup>1✝</sup>
