@@ -168,8 +168,8 @@ pip install -r requirements.txt
 
 | Model Name | Description | BaiduNetdisk |
 | :--------- | :---------- | :---------- | 
-| stage1.ckpt | Stage1 for brightness and color adjustment. | [download](https://pan.baidu.com/s/1StNZdmnLx5uPsXIz-zXZSw?pwd=sgri)| 
-| stage2.ckpt | Sagiri for conditional image generation. | [download](https://pan.baidu.com/s/14bPVDza-gRbpF3qYeJuYHQ?pwd=sgri) | 
+| stage1.ckpt | Stage1 for brightness and color adjustment. | [download](https://pan.baidu.com/s/1zNaUOxVVI64ZVShRGblYBA?pwd=82am)| 
+| stage2.ckpt | Sagiri for conditional image generation. | [download](https://pan.baidu.com/s/1rHuzGDt1EOd7X5TM6-HrFA?pwd=eivr) | 
 ## <a name="inference"></a>Inference
 
 ### <a name="inference"></a>Stage 1 inference
